@@ -1,0 +1,74 @@
+[
+  {
+    "id": "INC001",
+    "type": "app",
+    "severity": "critical",
+    "team": "DB Team"
+  },
+  {
+    "id": "INC004",
+    "type": "network",
+    "severity": "critical",
+    "team": "Network Team"
+  },
+  {
+    "id": "INC005",
+    "type": "security",
+    "severity": "critical",
+    "team": "Security Team"
+  },
+  {
+    "id": "INC010",
+    "type": "app",
+    "severity": "critical",
+    "team": "Backend Team"
+  },
+  {
+    "id": "INC006",
+    "type": "network",
+    "severity": "high",
+    "team": "Backend Team"
+  },
+  {
+    "id": "INC007",
+    "type": "network",
+    "severity": "medium",
+    "team": "Network Team"
+  },
+  {
+    "id": "INC009",
+    "type": "app",
+    "severity": "medium",
+    "team": "Backend Team"
+  },
+  {
+    "id": "INC012",
+    "type": "app",
+    "severity": "medium",
+    "team": "Network Team"
+  },
+  {
+    "id": "INC002",
+    "type": "network",
+    "severity": "low",
+    "team": "Security Team"
+  },
+  {
+    "id": "INC003",
+    "type": "app",
+    "severity": "low",
+    "team": "Backend Team"
+  },
+  {
+    "id": "INC008",
+    "type": "security",
+    "severity": "low",
+    "team": "Security Team"
+  },
+  {
+    "id": "INC011",
+    "type": "network",
+    "severity": "low",
+    "team": "Security Team"
+  }
+]

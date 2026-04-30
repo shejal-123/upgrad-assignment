@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/6/fG+8Rkpf2XXUzws8ScYCc3/zWSPFld4/U0YO/nsLRzWhnpvDjpaWQMlAvC/FJyDMU2W4AYrpZhr33QD8E3Q==",
+  "success": true,
+  "projectFilePath": "/home/shejal/Downloads/Batch2_ShejalBhosale_EmployeeManagementSystem/HashGen/HashGen.csproj",
+  "expectedPackageFiles": [
+    "/home/shejal/.nuget/packages/bcrypt.net-next/4.1.0/bcrypt.net-next.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

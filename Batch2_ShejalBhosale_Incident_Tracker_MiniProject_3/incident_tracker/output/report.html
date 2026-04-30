@@ -1,0 +1,304 @@
+
+        <html>
+        <head>
+            <title>IT Incident Report</title>
+            <style>
+                body {
+                    font-family: Arial;
+                    background-color: #f5f7fa;
+                    margin: 0;
+                }
+
+                .header {
+                    background: #1f3c88;
+                    color: white;
+                    padding: 15px;
+                    font-size: 20px;
+                }
+
+                .container {
+                    padding: 20px;
+                }
+
+                .card-container {
+                    display: flex;
+                    gap: 15px;
+                    margin-bottom: 20px;
+                }
+
+                .card {
+                    background: white;
+                    padding: 15px;
+                    border-radius: 8px;
+                    flex: 1;
+                    text-align: center;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                }
+
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    background: white;
+                }
+
+                th {
+                    background: #1f3c88;
+                    color: white;
+                    padding: 10px;
+                }
+
+                td {
+                    padding: 10px;
+                    border-bottom: 1px solid #ddd;
+                }
+
+                .badge {
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    color: white;
+                    font-size: 12px;
+                }
+            </style>
+        </head>
+
+        <body>
+
+        <div class="header">
+            IT Incident Auto-Triage Report  
+            <div style="font-size:12px;">
+                Generated: 2026-04-30 14:00
+            </div>
+        </div>
+
+        <div class="container">
+
+            <h3>Summary</h3>
+            <div class="card-container">
+                <div class="card"><b>12</b><br>Total</div>
+                <div class="card"><b style="color:red;">4</b><br>Critical</div>
+                <div class="card"><b style="color:orange;">1</b><br>High</div>
+                <div class="card"><b style="color:gold;">3</b><br>Medium</div>
+                <div class="card"><b style="color:green;">4</b><br>Low</div>
+            </div>
+
+            <h3>Incident Details</h3>
+
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Severity</th>
+                    <th>Type</th>
+                    <th>Team</th>
+                    <th>Tickets</th>
+                </tr>
+        
+            <tr>
+                <td>INC001</td>
+                <td>Database connection timeout on prod-db-01</td>
+                <td>
+                    <span class="badge" style="background:#ff4d4d">
+                        CRITICAL
+                    </span>
+                </td>
+                <td>app</td>
+                <td>DB Team</td>
+                <td>
+                    JIRA: JIRA-INC001<br>
+                    SNOW: SNOW-INC001<br>
+                    AZURE: AZ-INC001
+                </td>
+            </tr>
+            
+            <tr>
+                <td>INC004</td>
+                <td>Network switch offline in DC rack B</td>
+                <td>
+                    <span class="badge" style="background:#ff4d4d">
+                        CRITICAL
+                    </span>
+                </td>
+                <td>network</td>
+                <td>Network Team</td>
+                <td>
+                    JIRA: JIRA-INC004<br>
+                    SNOW: SNOW-INC004<br>
+                    AZURE: AZ-INC004
+                </td>
+            </tr>
+            
+            <tr>
+                <td>INC005</td>
+                <td>Ransomware signature detected on workstation</td>
+                <td>
+                    <span class="badge" style="background:#ff4d4d">
+                        CRITICAL
+                    </span>
+                </td>
+                <td>security</td>
+                <td>Security Team</td>
+                <td>
+                    JIRA: JIRA-INC005<br>
+                    SNOW: SNOW-INC005<br>
+                    AZURE: AZ-INC005
+                </td>
+            </tr>
+            
+            <tr>
+                <td>INC010</td>
+                <td>Scheduled job failed in non-production</td>
+                <td>
+                    <span class="badge" style="background:#ff4d4d">
+                        CRITICAL
+                    </span>
+                </td>
+                <td>app</td>
+                <td>Backend Team</td>
+                <td>
+                    JIRA: JIRA-INC010<br>
+                    SNOW: SNOW-INC010<br>
+                    AZURE: AZ-INC010
+                </td>
+            </tr>
+            
+            <tr>
+                <td>INC006</td>
+                <td>Payment gateway timeout — Stripe API 503</td>
+                <td>
+                    <span class="badge" style="background:#ff944d">
+                        HIGH
+                    </span>
+                </td>
+                <td>network</td>
+                <td>Backend Team</td>
+                <td>
+                    JIRA: JIRA-INC006<br>
+                    SNOW: SNOW-INC006<br>
+                    AZURE: AZ-INC006
+                </td>
+            </tr>
+            
+            <tr>
+                <td>INC007</td>
+                <td>Intermittent packet loss on VLAN 30</td>
+                <td>
+                    <span class="badge" style="background:#ffd11a">
+                        MEDIUM
+                    </span>
+                </td>
+                <td>network</td>
+                <td>Network Team</td>
+                <td>
+                    JIRA: JIRA-INC007<br>
+                    SNOW: SNOW-INC007<br>
+                    AZURE: AZ-INC007
+                </td>
+            </tr>
+            
+            <tr>
+                <td>INC009</td>
+                <td>API response slow — latency high</td>
+                <td>
+                    <span class="badge" style="background:#ffd11a">
+                        MEDIUM
+                    </span>
+                </td>
+                <td>app</td>
+                <td>Backend Team</td>
+                <td>
+                    JIRA: JIRA-INC009<br>
+                    SNOW: SNOW-INC009<br>
+                    AZURE: AZ-INC009
+                </td>
+            </tr>
+            
+            <tr>
+                <td>INC012</td>
+                <td>DNS resolution intermittent on 10.2.0.0/16</td>
+                <td>
+                    <span class="badge" style="background:#ffd11a">
+                        MEDIUM
+                    </span>
+                </td>
+                <td>app</td>
+                <td>Network Team</td>
+                <td>
+                    JIRA: JIRA-INC012<br>
+                    SNOW: SNOW-INC012<br>
+                    AZURE: AZ-INC012
+                </td>
+            </tr>
+            
+            <tr>
+                <td>INC002</td>
+                <td>Suspicious login attempts from unknown IP</td>
+                <td>
+                    <span class="badge" style="background:#66cc66">
+                        LOW
+                    </span>
+                </td>
+                <td>network</td>
+                <td>Security Team</td>
+                <td>
+                    JIRA: JIRA-INC002<br>
+                    SNOW: SNOW-INC002<br>
+                    AZURE: AZ-INC002
+                </td>
+            </tr>
+            
+            <tr>
+                <td>INC003</td>
+                <td>Checkout service returning NullPointerException</td>
+                <td>
+                    <span class="badge" style="background:#66cc66">
+                        LOW
+                    </span>
+                </td>
+                <td>app</td>
+                <td>Backend Team</td>
+                <td>
+                    JIRA: JIRA-INC003<br>
+                    SNOW: SNOW-INC003<br>
+                    AZURE: AZ-INC003
+                </td>
+            </tr>
+            
+            <tr>
+                <td>INC008</td>
+                <td>Phishing email reported by employees</td>
+                <td>
+                    <span class="badge" style="background:#66cc66">
+                        LOW
+                    </span>
+                </td>
+                <td>security</td>
+                <td>Security Team</td>
+                <td>
+                    JIRA: JIRA-INC008<br>
+                    SNOW: SNOW-INC008<br>
+                    AZURE: AZ-INC008
+                </td>
+            </tr>
+            
+            <tr>
+                <td>INC011</td>
+                <td>Firewall rule misconfiguration detected</td>
+                <td>
+                    <span class="badge" style="background:#66cc66">
+                        LOW
+                    </span>
+                </td>
+                <td>network</td>
+                <td>Security Team</td>
+                <td>
+                    JIRA: JIRA-INC011<br>
+                    SNOW: SNOW-INC011<br>
+                    AZURE: AZ-INC011
+                </td>
+            </tr>
+            
+            </table>
+        </div>
+        </body>
+        </html>
+        
